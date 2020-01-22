@@ -44,7 +44,7 @@ def naming_system
   animals = {
   
     :label "Kingdom"{,
-    
+      sub_category:
       :Phylum =>{
         :Class =>{
           :Order =>{
