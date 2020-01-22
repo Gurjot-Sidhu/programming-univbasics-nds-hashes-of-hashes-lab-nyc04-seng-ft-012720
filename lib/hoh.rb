@@ -43,13 +43,13 @@ def naming_system
   # HoH all the way to Species!
   animals = {
   
-    :Kingdom {
-      :Phylum {
-        :Class {
-          :Order {
-            :Family {
-              :Genus {
-                :Species{
+    :Kingdom =>{
+      :Phylum =>{
+        :Class =>{
+          :Order =>{
+            :Family =>{
+              :Genus =>{
+                :Species=>{
                   
                 }
               }
