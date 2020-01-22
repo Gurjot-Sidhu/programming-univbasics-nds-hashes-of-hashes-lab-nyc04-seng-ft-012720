@@ -43,11 +43,23 @@ def naming_system
   # HoH all the way to Species!
   animals = {
   
-   :Kingdom,
-   sub_category: {
-     label "Phylum",
-     sub_category: {
-       label: "Class"
+    :Kingdom,
+    sub_category: {
+      :Phylum,
+      sub_category: {
+        :Class,
+        sub_category:{
+          :Order
+          sub_category:{
+            :Family
+            sub_category:{
+              :Genus
+              sub_category:{
+                :Species
+              }
+            }
+          }
+        }
      }
    }
  }
